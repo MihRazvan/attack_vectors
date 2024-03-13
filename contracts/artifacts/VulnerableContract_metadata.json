@@ -67,11 +67,11 @@
 	},
 	"sources": {
 		"contracts/VulnerableContract.sol": {
-			"keccak256": "0xa68d1c28e47fb513dc33e56eef437677fe91c403220743ca304a12acc9212ab4",
+			"keccak256": "0x01c1227f6714c07c3938d4ce302244e496bd90e223f190411dabc944bf1727f7",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://b3e90ffac2a5f0267fc1d6089c2cd6dc810c052cd1fab2e005a2235215df5232",
-				"dweb:/ipfs/QmfALPwphgFsZ4YJAsexCFS5AyNyRGgLhQJgrwRcfCc6mR"
+				"bzz-raw://f38c86b9bb87c6498bdd0d54cc77e5e79df847876c3403f6a2c4e91dabe8e850",
+				"dweb:/ipfs/QmcYoTUS1vKB4ep6jDwBaDnFNnPJ1abkLPyhNJbPMPKuDM"
 			]
 		}
 	},

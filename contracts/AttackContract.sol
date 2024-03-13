@@ -12,7 +12,7 @@ contract AttackContract {
     IVulnerableContract public vulnerableContract;
     address owner;
 
-    constructor (address _vulnerableAddress) {
+    constructor (address _vulnerableAddress) payable {
         vulnerableContract = IVulnerableContract(_vulnerableAddress);
         owner = msg.sender;
     }
@@ -34,5 +34,10 @@ contract AttackContract {
             revert("Not owner!");
         }
         (bool sent, ) = owner.call{value: address(this).balance}("");
+        if (!sent) {
+            revert("Transaction Failed!");
+        }
     }
+
+    receive() external payable {}
 }

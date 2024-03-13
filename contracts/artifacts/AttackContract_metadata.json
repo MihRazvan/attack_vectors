@@ -13,7 +13,7 @@
 						"type": "address"
 					}
 				],
-				"stateMutability": "nonpayable",
+				"stateMutability": "payable",
 				"type": "constructor"
 			},
 			{
@@ -46,6 +46,10 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -76,11 +80,11 @@
 	},
 	"sources": {
 		"contracts/AttackContract.sol": {
-			"keccak256": "0x72211cab3e2806092910c1996115c48627e7809b2a21bba761d772c7ccd6929c",
+			"keccak256": "0xc7057b7af81040201345c9b802b5dd5485caef760bda11c2413076d56f0e15a2",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://c4f41b7293b36f423ecc17721cced1d74c0f0f96a1bffe2b53d66df9bef0a8d8",
-				"dweb:/ipfs/QmZP8AQZBYFv3okEpahZWQ9HsAod8KWNmyfbnK63MdGsnJ"
+				"bzz-raw://d505296a22add45166e52bd925a4b5039d64edf4f73a58d6a53164f97dada34c",
+				"dweb:/ipfs/QmRfQ1dEYEQfbw6xbGjrWHdCNHfH97ZGfpfMWCRsFAQMMa"
 			]
 		}
 	},
