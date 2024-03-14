@@ -6,6 +6,63 @@
 	"output": {
 		"abi": [
 			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "depositor",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "Deposit",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "withdrawer",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "WithdrawCompleted",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "withdrawer",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "WithdrawInitiated",
+				"type": "event"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "address",
@@ -67,11 +124,11 @@
 	},
 	"sources": {
 		"contracts/VulnerableContract.sol": {
-			"keccak256": "0x01c1227f6714c07c3938d4ce302244e496bd90e223f190411dabc944bf1727f7",
+			"keccak256": "0xcdcbe80d3cc28041c5cfedf5592f45259fa349b4ce7c03b2d464a1c662cd4e13",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://f38c86b9bb87c6498bdd0d54cc77e5e79df847876c3403f6a2c4e91dabe8e850",
-				"dweb:/ipfs/QmcYoTUS1vKB4ep6jDwBaDnFNnPJ1abkLPyhNJbPMPKuDM"
+				"bzz-raw://24a5d0302b252568cbf5be6d8b5c6a10de8c76716cd5b42f66aa23d1508be2b6",
+				"dweb:/ipfs/QmVthi4ZmkhttBjgosusbXaEwNB7Q3kN4S9EsKVVJVNxCJ"
 			]
 		}
 	},
